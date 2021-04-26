@@ -20,11 +20,11 @@
 ## 
 golem::fill_desc(
   pkg_name = "golemfirst", # The Name of the package containing the App 
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App 
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App 
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
+  pkg_title = "Trying New Interface", # The Title of the package containing the App 
+  pkg_description = "My first attempt to build a shiny app using the golem package", # The Description of the package containing the App 
+  author_first_name = "Gavin", # Your First Name
+  author_last_name = "Gordon", # Your Last Name
+  author_email = "gavinandrewgordonj@gmail.com", # Your Email
   repo_url = NULL # The URL of the GitHub Repo (optional) 
 )     
 
