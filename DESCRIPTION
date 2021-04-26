@@ -5,9 +5,23 @@ Authors@R: person('Gavin', 'Gordon', email = 'gavinandrewgordonj@gmail.com', rol
 Description: My first attempt to build a shiny app using the golem package
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config (>= 0.3.1),
+    DT,
+    glue,
     golem (>= 0.3.1.9000),
-    shiny (>= 1.6.0.9000)
+    htmltools,
+    processx,
+    shiny (>= 1.6.0.9000),
+    thinkr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
